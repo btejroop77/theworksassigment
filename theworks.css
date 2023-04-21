@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500&display=swap');
+
+.bg-container {
+    width: 1440px;
+    height: 1024px;
+    background-color: #FFA1A9;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    width: 1236px;
+    height: 882px;
+    background: #363636;
+    border-radius: 24px;
+    padding: 8px;
+    display: flex;
+}
+
+.profile-card {
+    position: absolute;
+    width: 515px;
+    height: 328px;
+    left: 118px;
+    top: 83px;
+    background: #FFA1A9;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+
+}
+
+.user-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 1px solid red;
+}
+
+.user-name {
+    width: 209px;
+    height: 29px;
+    left: 151px;
+    top: 111px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #363636;
+}
+
+
+.user-job {
+    width: 108px;
+    height: 14px;
+    left: 154px;
+    top: 146px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.185em;
+
+    color: #363636;
+}
+
+.user-description {
+    width: 271px;
+    height: 38px;
+    left: 151px;
+    top: 216px;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #363636;
+}
+
+.user-address {
+    width: 227px;
+    height: 66px;
+    left: 151px;
+    top: 270px;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #363636;
+}
+
+.card-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid red;
+}
+
+.card-name-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.64728px 28.1379px;
+    gap: 8.04px;
+    width: 104.28px;
+    height: 37.29px;
+    background: #363636;
+    border: 0.80394px solid #363636;
+    border-radius: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.863px;
+    line-height: 18px;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.work-card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 515px;
+    height: 328px;
+    left: 645px;
+    top: 83px;
+    background: #FFA1A9;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+.word-companies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 1px solid green;
+}
+
+.work-company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 1px solid red;
+}
+
+.year-role-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.word-year {
+    width: 78px;
+    height: 14px;
+    left: 681px;
+    top: 143px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #363636;
+    margin-right: 20px;
+}
+
+.role {
+    width: 160px;
+    height: 14px;
+    left: 778px;
+    top: 143px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #363636;
+}
+
+.work-company-name {
+    width: 345px;
+    height: 19px;
+    left: 679px;
+    top: 163px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.work-company-description {
+
+    width: 302px;
+    height: 14px;
+    left: 680px;
+    top: 185px;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+    color: #363636;
+    margin-top: 3px;
+}
+
+.arrow-left-card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 146px;
+    height: 328px;
+    left: 1177px;
+    top: 83px;
+
+    background: #FFB8B8;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.skills-awards-card {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 515px;
+    height: 328px;
+    left: 118px;
+    top: 427px;
+
+    background: #FFA1A9;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-card {
+
+    width: 184px;
+    height: 328px;
+    left: 118px;
+    top: 427px;
+    background: #FFB8B8;
+    border-radius: 24px;
+}
+
+.skills-card-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.skills-card-name-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.64728px 28.1379px;
+    gap: 8.04px;
+    width: 96.28px;
+    height: 37.29px;
+    left: 138px;
+    top: 453px;
+
+    background: #363636;
+    border: 0.80394px solid #363636;
+    border-radius: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.863px;
+    line-height: 18px;
+    color: #FAFAFA;
+    margin-top: 26px;
+}
+
+.skills-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    padding: 0px;
+    width: auto;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid green;
+    width: 150px;
+}
+
+.skill-name {
+    max-width: 142px;
+    height: 14px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.185em;
+    color: #363636;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.awards-card {
+    border: 1px solid green;
+    padding-left: 35px;
+    padding-top: 23px;
+
+    width: 50%;
+}
+
+.awards-card-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.awards-card-name-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.64728px 28.1379px;
+    gap: 8.04px;
+    width: 108.28px;
+    height: 37.29px;
+    left: 337px;
+    top: 450px;
+    background: #363636;
+    border: 0.80394px solid #363636;
+    border-radius: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.863px;
+    line-height: 18px;
+    color: #FAFAFA;
+}
+
+.awards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 38px;
+    border: 1px solid blue;
+}
+
+.award-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.award-year-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px;
+    gap: 10px;
+    width: 41px;
+    height: 20px;
+    left: 337px;
+    top: 522px;
+    border: 1px solid #363636;
+    border-radius: 16px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.185em;
+    color: #363636;
+    background-color: transparent;
+    margin-right: 18px;
+}
+
+.award-name-for-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid green;
+    max-width: 240px;
+    height: 40px;
+}
+
+.award-name {
+    max-width: 180px;
+    height: 20px;
+    left: 396px;
+    top: 522px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #363636;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.award-for {
+    width: 180px;
+    height: 14px;
+    left: 397px;
+    top: 540px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #363636;
+    margin: 0px;
+}
+
+.interests-card {
+    position: absolute;
+    width: 146px;
+    height: 328px;
+    left: 648px;
+    top: 427px;
+    background: #FFA1A9;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.interest-card-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid red;
+    margin-top: 23px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.interests-card-name-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.64728px 28.1379px;
+    gap: 8.04px;
+
+    width: 122.28px;
+    height: 37.29px;
+    left: 660px;
+    top: 450px;
+    background: #363636;
+    border: 0.80394px solid #363636;
+    border-radius: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.863px;
+    line-height: 18px;
+
+    color: #FAFAFA;
+
+}
+
+.interests-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid green;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.interest-item {
+    width: 82px;
+    height: 12px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.185em;
+    color: #363636;
+    border: 1px solid red;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.interests-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 114px;
+    height: 24px;
+    left: 667px;
+    top: 634px;
+    border: 1px solid red;
+    margin-top: 40px;
+}
+
+.education-card {
+    box-sizing: border-box;
+    position: absolute;
+    width: 515px;
+    height: 328px;
+    left: 808px;
+    top: 427px;
+    background: #FFA1A9;
+    border: 1px solid #363636;
+    border-radius: 24px;
+}
+
+.education-card-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 12px;
+    margin-top: 24px;
+}
+
+.education-card-name-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.64728px 28.1379px;
+    gap: 8.04px;
+    width: 127.28px;
+    height: 37.29px;
+    left: 1184px;
+    top: 450px;
+    background: #363636;
+    border: 0.80394px solid #363636;
+    border-radius: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.863px;
+    line-height: 18px;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 34px;
+    max-width: 412px;
+}
+
+.education-details-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 412px;
+
+}
+
+.education-year {
+    width: 75px;
+    height: 14px;
+    left: 844px;
+    top: 570px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #363636;
+    margin: 0px;
+}
+
+.edu-inst-area-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-institute {
+    width: 313px;
+    height: 19px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.institute-area {
+    width: 86px;
+    height: 14px;
+    border: 1px solid red;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #363636;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.education-type {
+    width: 216px;
+    height: 14px;
+    left: 843px;
+    top: 612px;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+    color: #363636;
+    margin: 0px;
+    margin-bottom: 27px;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 1205px;
+    height: 72px;
+    left: 118px;
+    top: 862px;
+
+    background: #FFA1A9;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.company-logo-button {
+    width: 48px;
+    height: 48px;
+    left: 141px;
+    top: 874px;
+    background: #363636;
+    border-radius: 16px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    color: #FFB8B8;
+    margin-left: 23px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.search-input {
+    width: 339px;
+    height: 48px;
+
+    background: #FFB8B8;
+    border: 1px solid #363636;
+    border-radius: 16px;
+
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.search-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 10px;
+    width: 48px;
+    height: 48px;
+    left: 495px;
+    top: 874px;
+    margin-left: 4px;
+    background: #363636;
+    border-radius: 16px;
+    border: none;
+}
+
+
+
+.user-routes {
+    width: 234px;
+    height: 19px;
+    left: 637px;
+    top: 887px;
+    margin-left: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+
+
+}
